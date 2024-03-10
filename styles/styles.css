@@ -82,7 +82,7 @@ header a{
 #sidebar{
     display: flex;
     position: fixed;
-    top: 95px;
+    top: 100px;
     bottom: 0%;
     left: 0%;
     flex-direction: column;
