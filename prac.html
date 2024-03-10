@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        #colorChooser{
+            border:none;
+            border-radius: 9px;
+            width: 20px;
+            height: 20px;
+            
+   
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label>choose a color</label>
+        <input type="color" tabindex=-1 name="color chooser" id="colorChooser">
+    </div>
+    <script>
+        const fs = require('fs');
+        fs.readFile('poem.txt', (err, data) =>{
+            if (err) throw err;
+
+            console.log(data.toString());
+        });
+        
+
+
+
+        let color = '';
+        document.querySelector('input').addEventListener('change', ()=>{
+            color = document.querySelector('input').value;
+            console.log(color)
+            document.querySelector('body').style.background=color;
+
+        })
+    </script>
+</body>
+</html>

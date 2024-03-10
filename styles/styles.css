@@ -1,0 +1,141 @@
+footer{
+    display: grid;
+    grid-template-columns: 3;
+
+    background-color: black;
+}
+#FFirst{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+footer p{
+    color: white;
+    margin: 0;
+}
+#FSecond{
+display: flex;
+justify-content: space-between;
+}
+
+body{
+    padding-top: 60px;
+    padding-left: 100px;
+    background: linear-gradient(90deg, rgb(202, 244, 53), rgb(15, 168, 202));
+}
+title{
+    font-style: italic;
+}
+#Title{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: red;
+    font-size: larger;
+}
+#Title span{
+    background-color: yellow;
+    border-radius: 9px;
+}
+#leftSection img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin-right: 20px;
+
+}
+#leftSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#linkDiv{
+    display: flex;
+    background-color: none;
+    justify-content: space-between;
+    justify-content: space-around;
+
+}
+header{
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(31, 126, 31);
+    background: linear-gradient(60deg, green, blue);
+    padding: 8px;
+}
+header a{
+    color: black;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgb(88, 189, 127);
+    text-decoration: none;
+    margin-right: 6px;
+}
+
+#sidebar{
+    display: flex;
+    position: fixed;
+    top: 50px;
+    bottom: 0%;
+    left: 0%;
+    flex-direction: column;
+    padding-left: 9px;
+    justify-content: space-between;
+    background: linear-gradient(99deg, blue, green);
+    padding-right: 10px;
+
+
+}
+#loveImages{
+    margin-top: 20px;
+}
+#tooltip{
+    display: flex;
+    position: absolute;
+
+}
+
+
+#sidebar div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+}
+.label{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: red;
+    margin-top: 0;
+    
+}
+#sidebar div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+#Poem{
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(0, 251, 255);
+    margin-bottom: 20px;
+}
+
+#Poem p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+#Poem pre{
+    color: green;
+    font-weight: bold;
+}
+    

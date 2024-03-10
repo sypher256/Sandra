@@ -1,0 +1,64 @@
+body{
+    padding-top: 60px;
+    background: linear-gradient(90deg, green, blue);
+}
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, blue,green);
+    justify-content: space-between;
+}
+header fieldset{
+    width: 200px;
+    height: 20px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    border-radius: 6px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: ridge;
+}
+header fieldset select{
+    width:200px
+}
+header fieldset legend{
+    color: rgb(255, 255, 255);
+}
+#Title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: aqua;
+}
+#Title span{
+    text-decoration: none;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    border: solid;
+    border-width: 2px;
+    border-color: aqua;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    padding-left: 8px;
+}
+#TitlePoem{
+    color: red;
+}
+#Data{
+    color: aqua;
+    font-size: small;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+
+    background: turquoise;
+}

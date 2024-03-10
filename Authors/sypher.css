@@ -1,0 +1,86 @@
+body{
+    padding-top: 50px;
+    background: linear-gradient(20deg, lightyellow,white);
+}
+
+header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background-color: rgb(229, 232, 236);
+
+}
+#imges{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+
+#imges img{
+    display: flex;
+    flex: 1;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 20px;
+    min-width: 100px;
+    max-width: 600px;
+}
+header p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+#ab{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+#ab p{}
+#des-div{
+    display: flex;
+    min-width: 300px;
+    max-width: 600px;
+}
+.a{
+    color: rgb(29, 245, 0);
+
+}
+.b{
+    color: springgreen;
+}
+#des img{
+    width: 30px;
+}
+#des-div div p span{
+
+    background-color: aqua;
+    color: red;
+    border-radius: 9px;
+}
+#title{
+    color: aqua;
+    text-decoration: underline;
+    background-color: black;
+    margin-bottom: 9px;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 0;
+}
+
+#tbb{
+    margin-bottom: 0;
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+td{
+    width: max-content;
+}
