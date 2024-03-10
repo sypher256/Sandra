@@ -19,7 +19,7 @@ justify-content: space-between;
 }
 
 body{
-    padding-top: 60px;
+    padding-top: 100px;
     padding-left: 100px;
     background: linear-gradient(90deg, rgb(202, 244, 53), rgb(15, 168, 202));
 }
