@@ -72,6 +72,8 @@ header{
     padding: 8px;
 }
 header a{
+    maxi-width: fit-content;
+    maxi-height: fit-content;
     color: black;
     padding: 8px;
     background-color: rgb(88, 189, 127);
