@@ -18,7 +18,7 @@ Speak to you alone,
 Curl up in your chest,
 Does it taste like home ?`,
         
-        Writer:"sypher pro"
+        Writer:"sypher"
     },
 
     {
@@ -46,7 +46,7 @@ At the centre of your cake ,
 Is a secret sweet surprise-
 The poems that you will make
 Contain your truth, just in disguise"`,
-        Writer: "sypher pro"
+        Writer: "sypher"
     },
     {
         Title:"Poem Under a Magnifying Glass",
@@ -75,7 +75,7 @@ A whisper of a song
 The poet you wanted to be at the start
 Is the poet you were all alon
         `,
-        Writer:"sypher pro"
+        Writer:"sypher"
     },
     {
         Title:"The Sheherd dreams",
