@@ -6,7 +6,7 @@ PoemsData.forEach(element => {
     <div class="container">
         <p id="TitlePoem">${Title}</p>
         <pre id="Data">${Poem}</pre>
-        <a href='https://sypher256.github.io/sandra/${Writer}.html'>${Writer}</a>
+        <a href='https://sypher256.github.io/Sandra/${Writer}.html'>${Writer}</a>
     </div>
     
     `
