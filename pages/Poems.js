@@ -19,7 +19,7 @@ Speak to you alone,
 Curl up in your chest,
 Does it taste like home ?`,
         
-        Writer:"Sandra"
+        Writer:"sandra"
     },
     {
         Title:"The Sheherd dreams",
@@ -49,7 +49,7 @@ The sun warm ,
 The grazing green,
 And paradise lies at her feet
         `,
-        Writer:"Sandra"
+        Writer:"sandra"
     },
 
     {
@@ -108,7 +108,7 @@ A whisper of a song
 The poet you wanted to be at the start
 Is the poet you were all alon
         `,
-        Writer:"Sandra"
+        Writer:"sandra"
     }
 ]
 // let HtmlData =''
