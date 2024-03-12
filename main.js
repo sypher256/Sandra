@@ -9,7 +9,7 @@ for(let i =0; i<randomInfo.length;i++){
     <div id="Poem">
     <p id="PoemTitle">${Title}</p>
     <pre id="PoemData">${Poem}</pre>
-    <a id="Writer" href='${Writer}.html'>${Writer}</a>
+    <a id='writer' href='https://sypher256.github.io/sandra/${Writer}.html'>${Writer}</a>
     </div>
     `;
     Html = Html+html;
